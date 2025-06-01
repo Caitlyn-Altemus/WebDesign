@@ -23,7 +23,7 @@ h2, h3 {
 
 li {
     list-style-image: url("images/FourthWing.jpg");
-    color: goldenrod;
+    color: gold;
     display: inline-block;
-    font-family: Georgia, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
 }
