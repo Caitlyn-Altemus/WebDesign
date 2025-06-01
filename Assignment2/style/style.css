@@ -1,0 +1,29 @@
+body {
+background-color: black;
+}
+header {
+  padding: 55px;
+  font-style: oblique;
+  text-align: center;
+  background-color: goldenrod;
+} 
+
+p {
+  padding: 40px;
+  font-style: italic;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+h2, h3 {
+  padding: 30px;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+li {
+    list-style-image: url("images/FourthWing.jpg");
+    color: goldenrod;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
