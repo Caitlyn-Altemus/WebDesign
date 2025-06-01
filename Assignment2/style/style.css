@@ -15,6 +15,12 @@ p {
   background-color: goldenrod;
 }
 
+h1 {
+  padding: 30px;
+  text-align: center;
+  background-color: goldenrod;
+}
+
 h2, h3 {
   padding: 30px;
   text-align: center;
@@ -23,7 +29,20 @@ h2, h3 {
 
 li {
     list-style-image: url("images/FourthWing.jpg");
-    color: gold;
+    color: black;
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+}
+
+img {
+  padding-left: 500px;
+  padding-top: 20px;
+}
+
+a:visited {
+  color:goldenrod;
+}
+
+a:hover {
+  color:beige;
 }
