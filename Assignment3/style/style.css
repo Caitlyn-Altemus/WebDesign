@@ -10,22 +10,28 @@ header {
 } 
 
 p {
-  padding: 40px;
+  padding: 20px;
   font-style: italic;
   text-align: center;
   background-color: goldenrod;
 }
 
-h1 {
-  padding: 30px;
+.chapter {
+  padding: 10px;
   text-align: center;
   background-color: goldenrod;
+  margin-block: 20px;
+  margin-left: 150px;
+  font-size: medium;
 }
 
-h2, h3 {
-  padding: 30px;
+.chapter2 {
+  padding: 10px;
   text-align: center;
   background-color: goldenrod;
+  margin-block: 50px;
+  margin-left: 150px;
+  font-size:medium;
 }
 
 li {
@@ -44,13 +50,13 @@ a:visited {
 }
 
 a:hover {
-  color:beige;
+  color:black;
 }
 
 figcaption{
     color:goldenrod;
     text-align: center;
-    padding-left: 175px;
+    padding-left: 100px;
 }
 
 fieldset{
@@ -61,4 +67,51 @@ table{
     color:goldenrod; 
 }
 
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
 
+#gallery img{
+    width: 30%;
+    height: auto;
+}
+
+div{
+    position:relative;
+    top: 10px;
+    right: 100px;
+}
+
+li:hover{
+    background-color: whitesmoke; 
+}
+
+
+@media (max-width:600px) {
+    body{
+        font-size: 16px;
+        padding: 10px
+    }
+    
+    li {
+        display: block;
+        margin: 10px 0; 
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    header,.chapter,.chapter20{ 
+        padding: 10px;
+
+    }
+
+}
