@@ -1,5 +1,6 @@
 body {
 background-color: black;
+
 }
 header {
   padding: 55px;
@@ -51,3 +52,13 @@ figcaption{
     text-align: center;
     padding-left: 175px;
 }
+
+fieldset{
+    color:goldenrod;
+}
+
+table{
+    color:goldenrod; 
+}
+
+
