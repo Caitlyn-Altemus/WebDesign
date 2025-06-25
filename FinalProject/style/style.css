@@ -47,9 +47,9 @@ top:8px;
 }
 
 .carousel-item img{
-    max-height: 680px;
+    max-height: 500px;
     object-fit: cover;
-    width: 100%;
+    
 }
 
 p{
@@ -60,8 +60,56 @@ p{
 }
 
 img{
-    padding-left: 350px;
+    padding-left: 50px;
     padding-bottom: 50px;
     width: 60%;
+}
 
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: bisque;
+    line-height: 1.6em;
+}
+
+legend{
+    font-style: italic;
+    color: #666666;
+}
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+}
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color: cadetblue;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: bisque;
+    color: cadetblue;
+    cursor: pointer;
+}
+.title {
+    float: left;
+    width: 310px;
+    clear: left;
+}
+.submit{
+    width: 310px;
+    text-align: right;
 }
