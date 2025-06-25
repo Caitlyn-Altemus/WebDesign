@@ -45,3 +45,23 @@ body{
 position:absolute;
 top:8px;
 }
+
+.carousel-item img{
+    max-height: 680px;
+    object-fit: cover;
+    width: 100%;
+}
+
+p{
+    background-color: bisque;
+    padding: 20px;
+    text-align: left;
+    text-size-adjust: 20px;
+}
+
+img{
+    padding-left: 350px;
+    padding-bottom: 50px;
+    width: 60%;
+
+}

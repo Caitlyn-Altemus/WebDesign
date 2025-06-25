@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
         <title> Cat's Creations</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.30/dist/css/bootstrap.min.css"rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"> 
         <link rel="stylesheet" href="style/style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
     </head>
@@ -27,21 +27,6 @@
             </li>
             <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown 
-            </a>
-            <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-istem" href="#">Something else here</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
             </ul>
             <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Seach" aria-label="Search"/>
@@ -54,14 +39,16 @@
             <h1> Cat's Studio</h1>
         </header>
         <main>
-        <div class="gallery">
-            <div class="item"><img src="images/GoodLuck-square.png" alt="A tiger face and the kanji for good luck"></div>
-            <div class="item"><img src="images/Lost-square.png" alt="Black and white forest"></div>
-            <div class="item"><img src="images/RedeyedRage-square.png" alt="Green girl with red eyes"></div>
-            <div class="item"><img src="images/Sakura-square.png" alt="A cherry blossom tree"></div>
-            <div class="item"><img src="images/Serene-square.png" alt="Calm ocean scene"></div>
-            <div class="item"><img src="images/StormySeas-square.png" alt="Stormy seas"></div>
-        </div>
+        <fieldset>
+            <legend> Contact details</legend>
+            <label> Email:<br/>
+            <input type="text" name="email"/></label><br/>
+            <label> Mobile:<br/>
+            <input type="text" name="mobile"/></label><br/>
+            <label>Telephone:<br/>
+            <input type="text" name="telephone" /></label>
+        </fieldset>
+     
 
         </main>
         <footer>
@@ -70,6 +57,6 @@
                 document.getElementByld("year").textContent = new Date().getFullYear();
             </script>
         </footer>
-        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.30/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

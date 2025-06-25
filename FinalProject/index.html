@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="description" content="A personal website designed to showcase work, ideas, and personality.">
         <title> Cat's Creations</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.30/dist/css/bootstrap.min.css"rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"> 
         <link rel="stylesheet" href="style/style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
     </head>
@@ -28,29 +28,41 @@
             <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown 
-            </a>
-            <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
             </ul>
             <form class="d-flex" role="search" action="https://www.google.com/search" method="get" target="_blank">
-            <input class="form-control me-2" type="search" name="q" placeholder="Seach this site" aria-label="Search">
+            <input class="form-control me-2" type="search" name="q" placeholder="Search this site" aria-label="Search">
             <input type="hidden" name="sitesearch" value="Caitlyn-Altemus.github.io">
             <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
             </div>
             </div>
         </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+       <div class="carousel-indicators">
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+       <div class="carousel-item active">
+       <img src="images/SureImOkay.jpeg" class="d-block w-100" alt="How I feel a majority of the time"> 
+       </div>
+       <div class="carousel-item">
+       <img src="images/TurningPoint.jpeg" class="d-block w-100" alt="A black and white portrait">
+       </div>
+       <div class="carousel-item">
+       <img src="images/Whisper.jpeg" class="d-block w-100" alt="A gray scale portrait">
+       </div>
+       </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+       </button>
+       </div>
         <header>
             <h1> Cat's Studio</h1>
         </header>
@@ -71,6 +83,6 @@
                 document.getElementByld("year").textContent = new Date().getFullYear();
             </script>
         </footer>
-        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.30/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
