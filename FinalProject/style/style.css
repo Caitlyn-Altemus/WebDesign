@@ -1,5 +1,6 @@
 body{
-    background-color: cadetblue;
+    background-color: darkolivegreen;
+    
 }
 
 @media (max-width: 600px) {
@@ -19,8 +20,8 @@ body{
 }
 
 .item{
-    background-color:papayawhip;
-    padding: 80px 20px;
+    background-color:bisque;
+    padding: 30px 20px;
     border-radius: 8px;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -48,21 +49,22 @@ top:8px;
 
 .carousel-item img{
     max-height: 500px;
-    object-fit: cover;
-    
+    object-fit:contain;
+    object-position: right;
+
 }
 
 p{
     background-color: bisque;
-    padding: 20px;
+    padding: 10px;
     text-align: left;
     text-size-adjust: 20px;
 }
 
 img{
-    padding-left: 50px;
-    padding-bottom: 50px;
-    width: 60%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 50%;
 }
 
 fieldset {
@@ -113,3 +115,10 @@ input[type="submit"]:hover {
     width: 310px;
     text-align: right;
 }
+
+form{
+    font-style: italic;
+    color: #666666;
+    
+}
+

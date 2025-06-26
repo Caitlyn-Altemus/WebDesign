@@ -52,11 +52,15 @@
             <label><input type="radio" name="interested" value="No" /> No</label>
         </fieldset>
         <div class="submit"><input type="submit" value="Commission Requested" /></div>
+        <form action="http://www.example.com/comments.php">
+            <textarea name="Details" cols="50" rows="10">Enter your details for a commission here...</textarea>
+            <div class="submit"><input type="submit" value="Submit"/></div>
+        </form>
         </main>
         <footer>
-            <p>&copy; <span id="year"></span> Caitlyn Altemus</p>
+            <p>&copy; <span id="2025"></span> Caitlyn Altemus</p>
             <script>
-                document.getElementByld("year").textContent = new Date().getFullYear();
+                document.getElementByld("2025").textContent = new Date().getFullYear();
             </script>
         </footer>
         <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
